@@ -21,17 +21,15 @@ class Buku:
 
 
 class Anggota:
-    def __init__(self, nama, nim, kode_member):
+    def __init__(self, nama, nim,):
         self.nama = nama
         self.nim = nim
-        self.kode_member = kode_member
         self.buku_dipinjam = [] # List kosong untuk menyimpan buku yg dipinjam anggota
 
     def tampilkan_profil(self): #menampilkan profil awal anggota
         print(f"\n===== Profil Anggota =====")
         print(f"Nama: {self.nama}")
         print(f"Nim: {self.nim}")
-        print(f"Kode Member: {self.kode_member}")
 
         if len(self.buku_dipinjam) > 0:
             print(f"Total Buku Dipinjam: {len(self.buku_dipinjam)}")

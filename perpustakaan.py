@@ -15,8 +15,8 @@ perpus_uin.tambah_buku(buku2)
 perpus_uin.tambah_buku(buku3)
 
 # BUAT OBJEK ANGGOTA
-anggota1 = Anggota("Ghenia", "1234567890","01")
-anggota2 = Anggota("Zahra", "098765421","02")
+anggota1 = Anggota("Ghenia", "1234567890")
+anggota2 = Anggota("Zahra", "098765421")
 
 # DAFTARKAN OBJEK ANGGOTA KE SISTEM
 perpus_uin.registrasi_anggota(anggota1)

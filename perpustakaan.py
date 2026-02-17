@@ -2,6 +2,7 @@ from sistem_perpus import Buku,Anggota,Perpustakaan
 
 # SISTEM PERPUSTAKAAN 
 perpus_uin = Perpustakaan("Perpustakaan UIN Suska")
+print('PERPUSTAKAAN UIN SUSKA')
 
 # BUAT OBJEK BUKU
 buku1 = Buku("Pemrograman Python (001)", "Guido van Rossum", 4)
